@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="model" default="$(find spotmicro_rviz)/urdf/spotmicro.urdf.xacro"/>
+  <arg name="model" default="$(find spotmicro_description)/urdf/spotmicro.urdf.xacro"/>
   <arg name="gui" default="true" />
   <arg name="rvizconfig" default="$(find spotmicro_rviz)/rviz/spotmicro.rviz" />
 
