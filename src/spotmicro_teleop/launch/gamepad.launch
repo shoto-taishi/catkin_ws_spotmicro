@@ -1,0 +1,9 @@
+<launch>
+    <node name="joy_node" pkg="joy" type="joy_node">
+        <param name="autorepeat_rate" value="10"/>
+        <param name="default_trig_val" value="true"/>
+        <!-- <param name="coalesce_interval" value="0.05"/> -->
+        
+    </node>
+    <node name="gamepad" pkg="spotmicro_teleop" type="gamepad_4ws.py"/>
+</launch>
